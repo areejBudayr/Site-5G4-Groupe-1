@@ -1,10 +1,9 @@
 
 +++
-title = "Atelier"
+title = "Visualiser l’algorithme A* dans Unity"
 weight = 3
 +++
 
-# Atelier – Visualiser l’algorithme A* dans Unity
 
 
 ## 1. Objectif de l’atelier
@@ -625,21 +624,9 @@ Vous pouvez créer un deuxième bouton et lui lier la méthode `ResetGrid()` pou
 
 ---
 
-## 10. Exercices pour les étudiants
+## 10. Amélioration possible
 
-1. **Modifier la taille de la grille**
-   Changez `width` et `height` (par ex. 15×15) et observez l’impact sur le nombre de cases ouvertes/fermées.
-
-2. **Changer dynamiquement Start / End**
-   Bonus : via une touche (par ex. `S` pour Start, `E` pour End) + clic de souris, choisir une nouvelle case de départ ou d’arrivée.
-
-3. **Tester une autre heuristique(inclus dans les notes de cours- Dijkstra, etc..)**
-   Remplacez la fonction `Heuristic` par une distance euclidienne, testez avec et sans facteur `* 10`, puis comparez le nombre de cases explorées.
-
-4. **Créer des labyrinthes impossibles (inclus dans le corriger)**
-   Construisez un mur qui coupe totalement la grille en deux et vérifiez le message **"Aucun chemin trouvé !"**.
-
-5. **Améliorer l’interface**
+- **Améliorer l’interface**
    Ajoutez :
 
    * un bouton `Réinitialiser ` (inclus dans le corriger),
