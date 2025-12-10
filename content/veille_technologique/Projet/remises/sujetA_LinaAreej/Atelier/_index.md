@@ -6,10 +6,6 @@ weight = 3
 
 # Atelier – Visualiser l’algorithme A* dans Unity
 
-> 💾 Exemple de dépôt Git (à adapter avec votre propre lien) :  
-> [Code source de l’atelier sur GitHub](https://github.com/votre-compte/atelier-a-star-unity)
-
----
 
 ## 1. Objectif de l’atelier
 
@@ -637,16 +633,16 @@ Vous pouvez créer un deuxième bouton et lui lier la méthode `ResetGrid()` pou
 2. **Changer dynamiquement Start / End**
    Bonus : via une touche (par ex. `S` pour Start, `E` pour End) + clic de souris, choisir une nouvelle case de départ ou d’arrivée.
 
-3. **Tester une autre heuristique**
+3. **Tester une autre heuristique(inclus dans les notes de cours- Dijkstra, etc..)**
    Remplacez la fonction `Heuristic` par une distance euclidienne, testez avec et sans facteur `* 10`, puis comparez le nombre de cases explorées.
 
-4. **Créer des labyrinthes impossibles**
+4. **Créer des labyrinthes impossibles (inclus dans le corriger)**
    Construisez un mur qui coupe totalement la grille en deux et vérifiez le message **"Aucun chemin trouvé !"**.
 
 5. **Améliorer l’interface**
    Ajoutez :
 
-   * un bouton `Reset`,
+   * un bouton `Réinitialiser ` (inclus dans le corriger),
    * un slider pour `stepDelay`,
    * un texte d’explication (légende des couleurs : start, end, open, closed, path, murs…).
 
@@ -661,7 +657,14 @@ Le corrigé complet correspond aux scripts fournis ci-dessus :
 * `CellClickManager.cs`
 * `Pathfinder.cs`
 
-### 🔗 Dépôt Git du corrigé 
+### Dépôt Git du corrigé 
 
 > Voici le dépôt Git contenant le projet Unity complet ainsi que les scripts utilisés dans cet atelier :  
 > **https://github.com/areejBudayr/Apathfinderunity.git**
+
+### Sources
+
+> Voici les sources utilisés pour cet atelier :  
+- https://youtu.be/alU04hvz6L4?si=OGCiuOMFyKdr4pH5
+- https://youtu.be/waEsGu--9P8?si=LFsadZNNzr2NRq8r
+- https://youtu.be/8jrAWtI8RXg?si=Cynt9ZN3zfuIMID0
